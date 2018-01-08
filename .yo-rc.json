@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "hasega",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "io.aseg.jhipster.application",
+    "serverPort": 8888,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "clusteredHttpSession": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "gradle",
+    "enableSocialSignIn": true,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "pt-br",
+    "languages": [
+      "en",
+      "es",
+      "pt-br"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.13.2",
+    "packageFolder": "io/aseg/jhipster/application",
+    "jwtSecretKey": "c62a30da0954e60259d141d933e56c5bad9d8cc6",
+    "jhiPrefix": "jhi"
+  }
+}
